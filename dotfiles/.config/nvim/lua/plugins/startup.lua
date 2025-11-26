@@ -21,12 +21,18 @@ return {
     dependencies = { "nvim-lua/plenary.nvim"},
     config = function()
     local startup_themes = {
-      "sleek", "default", "saturn", "rebel", "bloody", "priest", "elite"
+      "sleek",
+      "default",
+      "saturn",
+      "rebel",
+      "bloody",
+      "priest",
+      "elite"
     }
     -- Get random theme
     math.randomseed(os.time())
     local random_theme = startup_themes[math.random(#startup_themes)]
-    require("startup").setup({ theme = random_theme })
+    require("startup").setup({ theme = "sleek" })
   end
 }
 }

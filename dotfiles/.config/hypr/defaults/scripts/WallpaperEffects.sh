@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Optimized Wallpaper Effects with High-Res Support (SUPER SHIFT K) - Current Wallpaper Fix
 
 # Variables

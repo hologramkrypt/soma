@@ -1,3 +1,4 @@
+#!/bin/sh
 # Scripts for ivolume controls for audio and mic 
 
 iDIR="$HOME/.config/swaync/icons"

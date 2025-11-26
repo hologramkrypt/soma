@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # /* Calculator (using qalculate) and rofi */
 
 rofi_theme="$HOME/.config/rofi/config-calc.rasi"

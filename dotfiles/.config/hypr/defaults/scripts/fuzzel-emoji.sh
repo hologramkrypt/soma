@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -euo pipefail
 
 MODE="${1:-type}"

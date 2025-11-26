@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Refresh Hyprland UI components without resetting wallpaper
 
 SCRIPTSDIR="$HOME/.config/hypr/scripts"

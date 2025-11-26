@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Rofi Themes - Script to preview and apply themes by live-reloading the config.
 
 # --- Configuration ---

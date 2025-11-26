@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Wallpaper Selector - Unique Thumbnails for Same Filenames
 
 # Configuration

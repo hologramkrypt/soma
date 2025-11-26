@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Define the path to the config file
 config_file=$HOME/.config/hypr/UserConfigs/01-UserDefaults.conf
 

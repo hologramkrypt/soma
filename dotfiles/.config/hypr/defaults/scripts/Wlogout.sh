@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # wlogout (Power, Screen Lock, Suspend, etc)
 
 # Set variables for parameters. First numbers corresponts to Monitor Resolution

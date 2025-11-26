@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Wallust Colors for current wallpaper
 
 # Define the path to the swww cache directory

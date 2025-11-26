@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Script for waybar styles
 
 IFS=$'\n\t'

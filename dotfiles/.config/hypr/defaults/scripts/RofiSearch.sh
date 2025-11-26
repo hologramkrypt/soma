@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # For Searching via web browsers
 
 # Define the path to the config file
