@@ -15,12 +15,12 @@ configuration {
 * {
     background: transparent;
     background-alt: @alternate-active-background;
-    selected: @selected-normal-foreground;
-    active: @selected-urgent-foreground;
+    selected: @color1;
+    active: @foreground;
     urgent: @urgent-background;
     text-selected: @foreground;
     text-color: @foreground;
-    border-color: @selected-normal-background;
+    border-color: @border-color;
 }
 
 window {
@@ -31,10 +31,10 @@ window {
     anchor: center;
     width: 30%;
     height: 80%;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.5);
     border: 0px;
     border-color: @border-color;
-    border-radius: 1px;
+    border-radius: 0;
 }
 
 mainbox {
@@ -49,7 +49,7 @@ inputbar {
     enabled: true;
     padding: 10px;
     margin: 20px;
-    border-radius: 6px;
+    border-radius: 0px;
 //    background-image: url("~/.config/hypr/defaults/appearance/wallpaper_effects/.wallpaper_current");
     background-color: rgba(0,0,0,0);
     text-color: @text-color;
@@ -73,14 +73,14 @@ textbox {
 
 button {
     padding: 10px;
-    border-radius: 1px;
-    background-color: rgba(0,0,0,0.6);
+    border-radius: 0px;
+    background-color: @foreground;
     text-color: inherit;
     cursor: pointer;
 }
 
 button selected {
-    background-color: @selected-urgent-background;
+    background-color: @foreground; 
     text-color: @foreground;
 }
 
@@ -105,7 +105,7 @@ element {
     enabled: true;
     spacing: 8px;
     padding: 8px;
-    border-radius: 1px;
+    border-radius: 0px;
       background-color: transparent;
       text-color: @foreground;
 }
@@ -116,7 +116,7 @@ element normal.normal {
 }
 
 element selected.normal {
-    background-color: rgba(0,1,0,1); 
+    background-color: @color1; 
     text-color: @foreground;
 }
 

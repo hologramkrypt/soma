@@ -1,24 +1,15 @@
-/* All main themes or configs are located in ~/.config/rofi/themes/
-* If you want to edit the config, that is where you should edit NOT here
+/* All main themes or configs are located in ~/.config/rofi/themes
+* To load a new theme, manually edit the file path below or choose desired theme via rofi theme selector (choose via app menu) pv
+//*//
 
-* To load a new theme, manually edit the file path below or choose desired theme via rofi theme selector (choose via app menu)
 
-
-* TIPS
-* If you have edited a config, rename it with a unique name. During update, the contents of
-* ~/.config/rofi/themes/ will be replaced. */
-
-/* ---- Global Configuration Fonts ---- */
 @import "~/.config/rofi/0-shared-fonts.rasi"
 
+
 /* note: Main themes in ~/.config/rofi/themes */
-/* You can manually change here or you can use rofi theme selector SUPER SHIFT E */
-//@theme "/home/shader/.config/rofi/themes/juno.rasi"
+/* You can manually change here or you can use rofi theme selector SUPER + I */
 //@theme "~/.config/rofi/themes/juno.rasi"
-//@theme "~/.config/rofi/themes/spotlight-dark.rasi"
-//@theme "~/.config/rofi/themes/juno.rasi"
-//@theme "~/.config/rofi/themes/juno.rasi"
-//@theme "~/.config/rofi/themes/juno.rasi"
-//@theme "~/.config/rofi/themes/juno.rasi"
-//@theme "~/.config/rofi/themes/juno.rasi"
-@theme "~/.config/rofi/themes/juno.rasi"
+//@theme "~/.config/rofi/themes/soma.rasi"
+//@theme "~/.config/rofi/themes/soma.rasi"
+//@theme "~/.config/rofi/themes/soma.rasi"
+@theme "~/.config/rofi/themes/soma.rasi"

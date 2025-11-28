@@ -1,5 +1,4 @@
 # Rofi Powermenu Script
-@import "~/.config/rofi/colors/tokyonight.rasi"
 
 entries=(
     " Lock"
@@ -11,7 +10,7 @@ entries=(
 
 selected=$(
     printf '%s\n' "${entries[@]}" | rofi -dmenu \
-        -theme ~/.config/rofi/themes/juno.rasi \
+        -theme "~/.config/rofi/themes/soma.rasi" \
         -p "" \
         -width 20 \
         -lines 5 \

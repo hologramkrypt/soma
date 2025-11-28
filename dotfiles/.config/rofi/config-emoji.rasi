@@ -1,6 +1,7 @@
 /* Main Config - emoji */
 
-@import "~/.config/rofi/config.rasi" 
+@import "~/.config/rofi/config.rasi"
+@theme "~/.config/rofi/themes/soma.rasi"
 
 /* ---- Mainbox ---- */
 mainbox {
@@ -17,17 +18,18 @@ window {
 /* ---- Entry ---- */
 entry {
   width: 37%;
-  placeholder: " 💫 Search / Choose Emoji's";
-  horizontal-align: 0.0;
+  placeholder: "🩻 Search / Choose Emoji's";
+  horizontal-align: center;
+  vertical-align: center;
 }
 
 /* ---- Listview ---- */
 listview {
-  columns: 3;
-  lines: 7;
+  columns: 4;
+  lines: 5;
   fixed-height: false;
   scrollbar: false;
-  spacing: 6px;
+  spacing: 10px;
   cycle: true;
 }
 

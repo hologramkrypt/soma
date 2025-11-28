@@ -11,28 +11,25 @@
 "exclusive": true,
 "passthrough": false,
 "position": "top",
-"spacing": 4,
+"spacing": 5,
 "fixed-center": true,
 "ipc": true,
-"margin-left": 0,
-"margin-right": 0,
+"margin-left": 5,
+"margin-right": 5,
 "margin-top": 0,
 
 "modules-left": [
 	"clock#5",
 	"mpris",
 	"tray",
-    "custom/seperator#blank",
+	"group/notify",
     "hyprland/window"
 	],
 
 "modules-center": ["hyprland/workspaces"],
 
 "modules-right": [
-	"group/notify",
-	"pulseaudio#1",
-    "custom/seperator#blank",
-    "custom/cycle_wall",
-    "custom/file_manager"
-    ],
+	"pulseaudio",
+	"backlight",
+	"battery"],
 }

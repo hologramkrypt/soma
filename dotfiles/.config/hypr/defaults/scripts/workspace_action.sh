@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/sh
 curr_workspace="$(hyprctl activeworkspace -j | jq -r ".id")"
 dispatcher="$1"
 shift ## The target is now in $1, not $2

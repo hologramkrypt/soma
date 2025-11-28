@@ -1,4 +1,4 @@
-@import "~/.config/rofi/themes/juno.rasi"
+@import "~/.config/rofi/themes/soma.rasi"
 
 configuration {
     show-icons: true;
@@ -11,8 +11,8 @@ configuration {
 * {
     background:                  transparent;
     background-alt:              @alternate-active-background;
-    selected:                    @selected-normal-foreground;
-    active:                      @selected-urgent-foreground;
+    selected:                    @color1;
+    active:                      @urgent-foreground;
     urgent:                      @urgent-background;
     text-selected:               @foreground;
     text-color:                  @foreground;
@@ -20,7 +20,7 @@ configuration {
 }
 
 window {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.6);
     border: 0px;
     border-color: @border-color;
     border-radius: 12px;
@@ -65,8 +65,8 @@ element normal.normal {
 }
 
 element selected.normal {
-    background-color: rgba (0,0,0,0.5); 
-    text-color: @selected-normal-foreground;
+    background-color: @color1; 
+    text-color: @color0;
     border: 0px;
     border-color: @border-color;
 }

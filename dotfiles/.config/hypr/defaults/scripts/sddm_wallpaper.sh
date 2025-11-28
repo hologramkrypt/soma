@@ -4,11 +4,11 @@
 # for the upcoming changes on the simple_sddm_theme
 
 # variables
-terminal=kitty
+terminal=ghostty
 wallDIR="$HOME/.wallpapers"
-SCRIPTSDIR="$HOME/.config/hypr/scripts"
-wallpaper_current="$HOME/.config/hypr/configs/appearance/wallpaper_effects/.wallpaper_current"
-wallpaper_modified="$HOME/.config/hypr/configs/appearance/wallpaper_effects/.wallpaper_modified"
+SCRIPTSDIR="$HOME/.config/hypr/defaults/scripts"
+wallpaper_current="$HOME/.config/hypr/defaults/appearance/wallpaper_effects/.wallpaper_current"
+wallpaper_modified="$HOME/.config/hypr/defaults/appearance/wallpaper_effects/.wallpaper_modified"
 sddm_simple="/usr/share/sddm/themes/simple_sddm_2"
 
 # rofi-wallust-sddm colors path
