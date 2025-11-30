@@ -11,25 +11,26 @@
 "exclusive": true,
 "passthrough": false,
 "position": "top",
-"spacing": 5,
+"spacing": 6,
 "fixed-center": true,
 "ipc": true,
-"margin-left": 5,
-"margin-right": 5,
+"margin-left": 0,
+"margin-right": 0,
 "margin-top": 0,
 
 "modules-left": [
-	"clock#5",
+    "clock#5",
 	"mpris",
+    "network#speed",
 	"tray",
 	"group/notify",
-    "hyprland/window"
 	],
 
 "modules-center": ["hyprland/workspaces"],
 
 "modules-right": [
-	"pulseaudio",
+    "hyprland/window",
+    "pulseaudio",
 	"backlight",
 	"battery"],
 }

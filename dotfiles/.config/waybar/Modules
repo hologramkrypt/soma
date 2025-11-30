@@ -285,20 +285,20 @@
 "network#speed": {
 	"interval": 1,
 	"format": "{ifname}",
-	"format-wifi": "{icon}  {bandwidthUpBytes}  {bandwidthDownBytes}",
-	"format-ethernet": "󰌘  {bandwidthUpBytes}  {bandwidthDownBytes}",
-	"format-disconnected": "󰌙",
+	"format-wifi": "{icon}   {bandwidthUpBytes}    {bandwidthDownBytes}",
+	"format-ethernet": "󰌘    {bandwidthUpBytes}    {bandwidthDownBytes}",
+	"format-disconnected": " 󰌙 ",
 	"tooltip-format": "{ipaddr}",
-	"format-linked": "󰈁 {ifname} (No IP)",
+	"format-linked": "󰈁  {ifname} (No IP)",
 	"tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
-	"tooltip-format-ethernet": "{ifname} 󰌘",
-	"tooltip-format-disconnected": "󰌙 Disconnected",
+	"tooltip-format-ethernet": "{ifname}  󰌘 ",
+	"tooltip-format-disconnected": "󰌙  Disconnected",
 	"min-length": 24,
 	"max-length": 24,
 	"format-icons": [
-		"󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
+		" 󰤯 ", " 󰤟 ", " 󰤢 ", " 󰤥 ", " 󰤨 "
 	],
-    "on-click": "nmtui"
+    "on-click": "ghostty -e nmtui"
 },
 
 "power-profiles-daemon": {
@@ -316,7 +316,7 @@
 "pulseaudio": {
 	"format": "{icon} {volume}%",
 	"format-bluetooth": "{icon} 󰂰 {volume}%",
-	"format-muted": "󰖁",
+	"format-muted": " 󰖁 ",
 	"format-icons": {
 		"headphone": "  ",
 		"hands-free": "  ",

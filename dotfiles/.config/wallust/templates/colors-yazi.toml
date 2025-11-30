@@ -1,0 +1,81 @@
+# wallust Yazi theme template
+# Place as ~/.config/wallust/templates/yazi-theme.toml or similar
+# and run: wallust template ~/.config/wallust/templates/yazi-theme.toml
+
+[manager]
+cwd = { fg = "{{color1}}" }
+
+preview_hints   = { fg = "{{color3}}" }
+
+hovered         = { fg = "{{background}}", bg = "{{color4}}" }
+preview_hovered = { fg = "{{background}}", bg = "{{color4}}" }
+
+find_keyword  = { fg = "{{color3}}", bold = true, italic = true }
+find_position = { fg = "{{color5}}" }
+
+marker_copied   = { fg = "{{color10}}", bg = "{{color10}}" }
+marker_cut      = { fg = "{{color9}}",  bg = "{{color9}}" }
+marker_selected = { fg = "{{color12}}", bg = "{{color12}}" }
+
+count_copied   = { fg = "{{background}}", bg = "{{color10}}" }
+count_cut      = { fg = "{{background}}", bg = "{{color9}}" }
+count_selected = { fg = "{{background}}", bg = "{{color12}}" }
+
+border_symbol = "│"
+border_style  = { fg = "{{color8}}" }
+
+tab_active   = { fg = "{{background}}", bg = "{{color7}}" }
+tab_inactive = { fg = "{{foreground}}", bg = "{{color0}}" }
+tab_width    = 2
+
+[status]
+bg = "{{color0}}"
+separator_open  = "█"
+separator_close = "█"
+separator_style = { fg = "{{color0}}", bg = "{{color8}}" }
+
+mode_normal = { fg = "{{color4}}", bold = true }
+mode_select = { fg = "{{color10}}",  bold = true }
+mode_unset  = { fg = "{{color9}}",  bold = true }
+
+progress_label = { fg = "{{foreground}}", bold = true }
+progress_normal = { fg = "{{color4}}" }
+progress_error  = { fg = "{{color9}}" }
+
+[select]
+border   = { fg = "{{color4}}" }
+active   = { fg = "{{color5}}", bold = true }
+inactive = {}
+
+[input]
+border   = { fg = "{{color4}}" }
+title    = {}
+value    = {}
+selected = { reversed = true }
+
+[completion]
+border = { fg = "{{color8}}" }
+
+
+[tasks]
+border  = { fg = "{{color4}}" }
+title   = {}
+hovered = { underline = true }
+
+[help]
+on      = { fg = "{{color5}}" }
+run     = { fg = "{{color6}}" }
+desc    = { fg = "{{color7}}" }
+hovered = { bg = "{{color8}}", bold = true }
+footer  = { fg = "{{color1}}", bg = "{{color0}}" }
+
+[filetype]
+rules = [
+  { mime = "image/*", fg = "{{color6}}" },
+  { mime = "video/*", fg = "{{color6}}" },
+  { mime = "audio/*", fg = "{{color6}}" },
+  { mime = "application/*zip", fg = "{{color5}}" },
+  { mime = "application/x-{tar,bzip*,gzip,7z-compressed,xz,rar}", fg = "{{color5}}" },
+  { name = "*", fg = "{{foreground}}" },
+  { name = "*/", fg = "{{color4}}" },
+]

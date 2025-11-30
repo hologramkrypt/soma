@@ -3,79 +3,79 @@
 # and run: wallust template ~/.config/wallust/templates/yazi-theme.toml
 
 [manager]
-cwd = { fg = "#484B54" }
+cwd = { fg = "#5E5F64" }
 
-preview_hints   = { fg = "#60637F" }
+preview_hints   = { fg = "#6E6F74" }
 
-hovered         = { fg = "#10100F", bg = "#737696" }
-preview_hovered = { fg = "#10100F", bg = "#737696" }
+hovered         = { fg = "#161617", bg = "#7D7973" }
+preview_hovered = { fg = "#161617", bg = "#7D7973" }
 
-find_keyword  = { fg = "#60637F", bold = true, italic = true }
-find_position = { fg = "#8488A8" }
+find_keyword  = { fg = "#6E6F74", bold = true, italic = true }
+find_position = { fg = "#908B84" }
 
-marker_copied   = { fg = "#555A6B", bg = "#555A6B" }
-marker_cut      = { fg = "#484B54",  bg = "#484B54" }
-marker_selected = { fg = "#737696", bg = "#737696" }
+marker_copied   = { fg = "#696660", bg = "#696660" }
+marker_cut      = { fg = "#5E5F64",  bg = "#5E5F64" }
+marker_selected = { fg = "#7D7973", bg = "#7D7973" }
 
-count_copied   = { fg = "#10100F", bg = "#555A6B" }
-count_cut      = { fg = "#10100F", bg = "#484B54" }
-count_selected = { fg = "#10100F", bg = "#737696" }
+count_copied   = { fg = "#161617", bg = "#696660" }
+count_cut      = { fg = "#161617", bg = "#5E5F64" }
+count_selected = { fg = "#161617", bg = "#7D7973" }
 
 border_symbol = "│"
-border_style  = { fg = "#85878D" }
+border_style  = { fg = "#8D8884" }
 
-tab_active   = { fg = "#10100F", bg = "#BEC1CA" }
-tab_inactive = { fg = "#D7D9E0", bg = "#383838" }
+tab_active   = { fg = "#161617", bg = "#CAC3BD" }
+tab_inactive = { fg = "#E0DBD7", bg = "#3D3D3E" }
 tab_width    = 2
 
 [status]
-bg = "#383838"
+bg = "#3D3D3E"
 separator_open  = "█"
 separator_close = "█"
-separator_style = { fg = "#383838", bg = "#85878D" }
+separator_style = { fg = "#3D3D3E", bg = "#8D8884" }
 
-mode_normal = { fg = "#737696", bold = true }
-mode_select = { fg = "#555A6B",  bold = true }
-mode_unset  = { fg = "#484B54",  bold = true }
+mode_normal = { fg = "#7D7973", bold = true }
+mode_select = { fg = "#696660",  bold = true }
+mode_unset  = { fg = "#5E5F64",  bold = true }
 
-progress_label = { fg = "#D7D9E0", bold = true }
-progress_normal = { fg = "#737696" }
-progress_error  = { fg = "#484B54" }
+progress_label = { fg = "#E0DBD7", bold = true }
+progress_normal = { fg = "#7D7973" }
+progress_error  = { fg = "#5E5F64" }
 
 [select]
-border   = { fg = "#737696" }
-active   = { fg = "#8488A8", bold = true }
+border   = { fg = "#7D7973" }
+active   = { fg = "#908B84", bold = true }
 inactive = {}
 
 [input]
-border   = { fg = "#737696" }
+border   = { fg = "#7D7973" }
 title    = {}
 value    = {}
 selected = { reversed = true }
 
 [completion]
-border = { fg = "#85878D" }
+border = { fg = "#8D8884" }
 
 
 [tasks]
-border  = { fg = "#737696" }
+border  = { fg = "#7D7973" }
 title   = {}
 hovered = { underline = true }
 
 [help]
-on      = { fg = "#8488A8" }
-run     = { fg = "#8E93A6" }
-desc    = { fg = "#BEC1CA" }
-hovered = { bg = "#85878D", bold = true }
-footer  = { fg = "#484B54", bg = "#383838" }
+on      = { fg = "#908B84" }
+run     = { fg = "#A5988C" }
+desc    = { fg = "#CAC3BD" }
+hovered = { bg = "#8D8884", bold = true }
+footer  = { fg = "#5E5F64", bg = "#3D3D3E" }
 
 [filetype]
 rules = [
-  { mime = "image/*", fg = "#8E93A6" },
-  { mime = "video/*", fg = "#8E93A6" },
-  { mime = "audio/*", fg = "#8E93A6" },
-  { mime = "application/*zip", fg = "#8488A8" },
-  { mime = "application/x-{tar,bzip*,gzip,7z-compressed,xz,rar}", fg = "#8488A8" },
-  { name = "*", fg = "#D7D9E0" },
-  { name = "*/", fg = "#737696" },
+  { mime = "image/*", fg = "#A5988C" },
+  { mime = "video/*", fg = "#A5988C" },
+  { mime = "audio/*", fg = "#A5988C" },
+  { mime = "application/*zip", fg = "#908B84" },
+  { mime = "application/x-{tar,bzip*,gzip,7z-compressed,xz,rar}", fg = "#908B84" },
+  { name = "*", fg = "#E0DBD7" },
+  { name = "*/", fg = "#7D7973" },
 ]

@@ -1,6 +1,6 @@
 # This is the configuration file for Ghostty.
 
-theme = Black Metal (Bathory)
+theme = Black Metal (Bathory) 
 
 # Tabs and window
 window-decoration = true
