@@ -278,7 +278,7 @@
 	"format-icons": [
 		"󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
 	],
-    "on-click": "exec nmtui",
+    "on-click": "ghostty -e impala",
     "on-click-right": "$HOME/.config/hypr/scripts/WaybarScripts.sh --nmtui"
 },
 
@@ -298,7 +298,7 @@
 	"format-icons": [
 		" 󰤯 ", " 󰤟 ", " 󰤢 ", " 󰤥 ", " 󰤨 "
 	],
-    "on-click": "ghostty -e nmtui"
+    "on-click": "ghostty -e impala"
 },
 
 "power-profiles-daemon": {

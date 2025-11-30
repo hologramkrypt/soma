@@ -31,6 +31,6 @@
 "modules-right": [
     "hyprland/window",
     "pulseaudio",
-	"backlight",
-	"battery"],
+    "group/laptop",
+]
 }
