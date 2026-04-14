@@ -16,7 +16,7 @@ Everything is focused on striking a balance of privacy as well as usability. I r
 
 <div align="center">
 
-[Introduction](INTRO.md) • [Installation](INSTALL.md) • [Configuration](CONFIG.md) • [Assets](ASSETS.md)
+[Introduction](INTRO.md) • [Installation](https://github.com/hologramkrypt/soma/blob/main/README.md#installation) • [Configuration](CONFIG.md) • [Assets](ASSETS.md)
 
 </div>
 
