@@ -1,3 +1,4 @@
+
 <h1 align=center>
 Soma
 </h1>
@@ -7,6 +8,8 @@ Soma
 Everything is focused on striking a balance of privacy as well as usability. I run a personal media server, as well as a gaming PC, a mini pc, and my homelab through this. You are meant to change things to fit your taste, and make it yours. 
 
 ---
+
+<img width="1920" height="1045" alt="01" src="https://github.com/user-attachments/assets/7dbeefd2-7c04-445b-92f6-205450bb7c66" />
 
 <div align="center">
 
