@@ -9,7 +9,8 @@ Everything is focused on striking a balance of privacy as well as usability. I r
 
 ---
 
-<img width="1920" height="1045" alt="01" src="https://github.com/user-attachments/assets/7dbeefd2-7c04-445b-92f6-205450bb7c66" />
+
+
 
 <div align="center">
 
