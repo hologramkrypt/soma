@@ -30,7 +30,8 @@ The main idea is a functional, no-nonsense, bare-metal approach.
 <details>
 <summary> My system specs </summary>
 
-* Gaming PC *
+
+> Gaming PC
 
 | Hardware | Specification |
 |-----------|----------------|
@@ -44,5 +45,3 @@ The main idea is a functional, no-nonsense, bare-metal approach.
 | Displays | 3x 2560x1440 144hz, 1x 1920x1080 240hz |
 
 </details>
-
-
