@@ -30,7 +30,8 @@ The main idea is a functional, no-nonsense, bare-metal approach.
 <details>
 <summary> My system specs </summary>
 
-| GAMING PC | ... | 
+> **Gaming PC**
+
 | Hardware | Specification |
 |-----------|----------------|
 | CPU | Intel Core i9-10900k  3.70 GHz |
@@ -46,13 +47,10 @@ The main idea is a functional, no-nonsense, bare-metal approach.
 
 | Hardware | Specification |
 |-----------|----------------|
-| CPU | Intel Core i7-3900k  3.70 GHz |
-| GPU | GEFORCE RTX 4090 |
-| Memory | 64 GB |
-| Storage | 4TB SSD + 10 TB HDD |
-| WM | KDE Plasma |
-| Distro | Arch Linux |
-| Shell | Bash |
-| Displays | 3x 2560x1440 144hz, 1x 1920x1080 240hz |
+| CPU | Intel Core i7-7700k  3.70 GHz |
+| GPU | GEFORCE RTX 3080 |
+| Memory | 32 GB |
+| Storage | 5x 24TB HDD, 2 10TB SSD |
+| OS | PROXMOX |
 
 </details>
