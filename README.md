@@ -16,7 +16,7 @@ Everything is focused on striking a balance of privacy as well as usability. I r
 
 <div align="center">
 
-[Introduction](INTRO.md) • [Installation](https://github.com/hologramkrypt/soma/blob/main/README.md#installation) • [Configuration](CONFIG.md) • [Assets](ASSETS.md)
+[Introduction](https://github.com/hologramkrypt/soma/blob/main/README.md#intro) • [Installation](https://github.com/hologramkrypt/soma/blob/main/README.md#installation) • [Configuration](CONFIG.md) • [Assets](ASSETS.md)
 
 </div>
 
@@ -67,6 +67,7 @@ The main idea is a functional, no-nonsense, bare-metal approach.
     git clone https://github.com/hologramkrypt/soma.git
     cd soma
 
+There is more info on installing both Arch Linux, and Soma in the [Soma Wiki](https://github.com/hologramkrypt/soma/wiki). 
 ### *Configuration*
 
 
