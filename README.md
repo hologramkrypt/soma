@@ -30,7 +30,7 @@ The main idea is a functional, no-nonsense, bare-metal approach.
 <details>
 <summary> My system specs </summary>
 
-| GAMING PC | | 
+| GAMING PC | ... | 
 | Hardware | Specification |
 |-----------|----------------|
 | CPU | Intel Core i9-10900k  3.70 GHz |
