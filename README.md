@@ -16,7 +16,7 @@ Everything is focused on striking a balance of privacy as well as usability. I r
 
 <div align="center">
 
-[Introduction](INTRO.md) • [Installation](INSTALL.md) • [Configuration](CONFIG.md) • [Assets](ASSETS.md) • [To-Do](#to-do) • [Attributions](#attributions)
+[Introduction](INTRO.md) • [Installation](INSTALL.md) • [Configuration](CONFIG.md) • [Assets](ASSETS.md)
 
 </div>
 
@@ -50,9 +50,43 @@ The main idea is a functional, no-nonsense, bare-metal approach.
 | Hardware | Specification |
 |-----------|----------------|
 | CPU | Intel Core i7-7700k  3.70 GHz |
-| GPU | GEFORCE RTX 3080 |
+| GPU | GEFORCE 2080 TI |
 | Memory | 32 GB |
-| Storage | 5x 24TB HDD, 2 10TB SSD |
+| Storage | 5x 24TB HDD, 2 5TB SSD |
 | OS | PROXMOX |
 
 </details>
+
+### *Installation*
+
+> **⚠️ Note:**  
+> If cloning this repo, you **must** modify your configuration to fit your system.
+
+**Clone repository:**
+
+    git clone https://github.com/hologramkrypt/soma.git
+    cd soma
+
+### *Configuration*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p align="center">
+    Built in the graveyard // <strong>hologramkrypt</strong> \\ |  soma
+</p>
+
+
+---
