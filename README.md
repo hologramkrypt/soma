@@ -5,7 +5,7 @@ Soma
 
 ***Soma*** is the main "brain" of my workstation. This repository is meant to serve as a guide to installing, as well as a hub for information on my current workflow. 
 
-Everything is focused on striking a balance of privacy as well as usability. I run a personal media server, as well as a gaming PC, a mini pc, and my homelab through this. You are meant to change things to fit your taste, and make it yours. 
+Everything is focused on striking a balance of privacy as well as usability. I run a personal media server, as well as a gaming PC, a mini pc, and my homelab. This is the central hub where I can probe into any one of them. You are meant to change things to fit your taste, and make it yours. 
 
 ---
 
