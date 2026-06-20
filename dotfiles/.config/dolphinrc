@@ -1,18 +1,54 @@
+[CompactMode]
+IconSize=80
+PreviewSize=96
+
+[ContentDisplay]
+DirectorySizeMode=ContentSize
+RecursiveDirectorySizeLimit=20
+UseShortRelativeDates=false
+
+[ContextMenu]
+ShowCopyMoveMenu=true
+
 [DetailsMode]
+LeftPadding=4
 PreviewSize=32
+RightPadding=2
+
+[ExtractDialog]
+3 screens: Height=480
+3 screens: Width=971
+DirHistory[$e]=$HOME/Downloads/eote/,$HOME/Downloads/,$HOME/Documents/
 
 [General]
+BrowseThroughArchives=true
+FilterBar=true
 GlobalViewProps=false
-ShowFullPath=true
+OpenNewTabAfterLastTab=true
 ShowStatusBar=FullWidth
+ShowToolTips=true
 Version=202
+ViewPropsTimestamp=2025,12,20,15,0,51.847
+
+[IconsMode]
+IconSize=96
+MaximumTextLines=5
+PreviewSize=16
+TextWidthIndex=2
+
+[InformationPanel]
+previewsShown=false
+showHovered=false
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
-Places Icons Static Size=22
+Places Icons Static Size=32
 
-[MainWindow]
-MenuBar=Disabled
+[PlacesPanel]
+IconSize=32
 
 [PreviewSettings]
-Plugins=ffmpegthumbnailer,appimagethumbnail,audiothumbnail,avif,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,heif,imagethumbnail,jpegthumbnail,jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,librsvg,svgthumbnail,ffmpegthumbs,gdk-pixbuf-thumbnailer,gsf-office
+Plugins=appimagethumbnail,audiothumbnail,glycin-heif,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,glycin-svg,svgthumbnail,textthumbnail,exe-thumbnailer
+
+[kuick-copy]
+Paths[$e]=smb://192.168.1.208/ARCHIVE_01/Portable Files/nicotine/unsorted

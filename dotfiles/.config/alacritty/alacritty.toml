@@ -1,0 +1,77 @@
+[general]
+import = ["~/.config/alacritty/themes/monokai_charcoal.toml"]
+live_config_reload = true
+
+[font]
+builtin_box_drawing = true
+size = 12.0
+
+[font.normal]
+family = "0xProto Nerd Font"
+style = "Regular"
+
+[font.bold]
+style = "Bold"
+
+[font.bold_italic]
+style = "Bold Italic"
+
+[font.italic]
+style = "Italic"
+
+[env]
+TERM = "alacritty"
+
+[mouse]
+hide_when_typing = true
+
+[cursor]
+unfocused_hollow = true
+
+[cursor.style]
+blinking = "Always"
+shape = "Block"
+
+[scrolling]
+history = 100000
+multiplier = 6
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[window]
+dynamic_title = true
+opacity = 0.7
+blur = true
+padding = { x = 20, y = 20}
+title = "Alacritty"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[[hints.enabled]]
+command = "xdg-open"
+hyperlinks = true
+mouse.enabled = true
+binding = { key = "U", mods = "Control|Shift" }
+post_processing = true
+persist = false
+regex = "(https?://[^\"]+)"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control"
+
+[terminal.shell]
+program = "/usr/bin/bash"
